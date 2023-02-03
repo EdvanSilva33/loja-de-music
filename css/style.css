@@ -324,6 +324,9 @@ footer p {
     width: 100%;
     padding: 0;
   }
+  .produtos .content{
+    padding: 16px 20px;
+  }
 
   .sumario .formas-pagamentos h3 {
     margin-top: 20px;
