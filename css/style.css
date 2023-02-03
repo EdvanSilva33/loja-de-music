@@ -317,7 +317,7 @@ footer p {
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
-    padding: 16px 20px;
+    padding: 16px;
     display: block;
   }
   .loja .image {
@@ -325,7 +325,7 @@ footer p {
     padding: 0;
   }
   .produtos .content{
-    padding: 16px 20px;
+    padding: 16px 22px;
   }
 
   .sumario .formas-pagamentos h3 {
