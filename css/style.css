@@ -30,10 +30,10 @@ body {
   font-style: italic;
 }
 /**configurações do menu*/
-.menu{
+.menu {
   margin-right: 130px;
 }
-.inicial{
+.inicial {
   margin-right: 20px;
 }
 .menu-burguer {
@@ -46,10 +46,8 @@ body {
   display: block;
   margin-bottom: 5px;
   background-color: #fff;
-
 }
 .menu ul li {
- 
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
@@ -66,14 +64,12 @@ body {
 .menu ul li a {
   text-decoration: none;
   color: #fff;
- 
 }
 .menu ul li a:hover {
   color: #ff0000;
 }
 .menu ul li:hover .sub-menu {
   display: block;
- 
 }
 
 .container .sub-menu {
@@ -146,7 +142,6 @@ body {
   margin: 40px auto;
 }
 .content {
-  
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -155,7 +150,6 @@ body {
   text-decoration: none;
 }
 .itens-produtos {
-  
   margin: 20px 5px;
   border-radius: 10px;
   background-color: #fff;
@@ -187,10 +181,9 @@ body {
   color: #767676;
 }
 
-.content .itens-produtos img{
+.content .itens-produtos img {
   width: 100%;
 }
-
 
 /****inicio footer****/
 
@@ -212,7 +205,6 @@ footer p {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-
 }
 .endereco {
   width: 210px;
@@ -220,8 +212,8 @@ footer p {
   padding-top: 25px;
   margin-top: 25px;
 }
-.endereco li a{
-  color:#000;
+.endereco li a {
+  color: #000;
   text-decoration: none;
 }
 .mapa {
@@ -246,7 +238,7 @@ footer p {
 }
 .formas-pagamentos {
   width: 230px;
-  
+
   margin-top: 15px;
   padding: 10px;
 }
@@ -263,7 +255,6 @@ footer p {
   height: 260px;
 
   width: 220px;
- ;
 }
 
 .rede-social a {
@@ -284,63 +275,60 @@ footer p {
 }
 /** inicio da responsibidade**/
 
-
-
-@media screen and (min-width:641px) and (max-width:1023px ){
- .header{
- padding: 16px;
-   justify-content: space-between;
-  
- }
- .header .menu{
-  width: 380px;
-   margin: 0 30px 0 0;
-
- 
- }
- .header .menu ul li .inicial{
-  margin: 0px;
- }
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  .header {
+    padding: 16px;
+    justify-content: space-between;
+  }
+  .header .menu {
+    width: 380px;
+    margin: 0 30px 0 0;
+  }
+  .header .menu ul li .inicial {
+    margin: 0px;
+  }
 }
 
-@media screen and (min-width:319px) and (max-width: 640px) {
-
-  .header{
+@media screen and (min-width: 319px) and (max-width: 640px) {
+  .header {
     display: block;
     position: relative;
- 
   }
-  .header h1{
+  .header h1 {
     margin: 10px;
   }
-  .menu-burguer{
-     top:10px;
-     right: 18px;
+  .header .menu{
+    display: none;
+  }
+  .menu-burguer {
+    top: 10px;
+    right: 18px;
     position: absolute;
     display: block;
   }
-  .container .menu ul li{
+  .container .menu ul li {
     float: none;
-    
   }
 
-  .loja, .sobre-loja, .produtos, .sumario{
+  .loja,
+  .sobre-loja,
+  .produtos,
+  .sumario {
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     max-width: 350px;
     padding: 16px;
     display: block;
   }
-   .loja .image{
+  .loja .image {
     width: 100%;
     padding: 0;
-   
   }
- 
- .sumario .formas-pagamentos h3{
-margin-top: 20px;
-    color:#000;
+
+  .sumario .formas-pagamentos h3 {
+    margin-top: 20px;
+    color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
- }
+  }
 }
