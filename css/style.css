@@ -148,6 +148,7 @@ body {
   gap: 15px;
   align-items: center;
   text-decoration: none;
+   justify-content: center;
 }
 .itens-produtos {
   margin: 20px 5px;
@@ -279,6 +280,7 @@ footer p {
   .header {
     padding: 16px;
     justify-content: space-between;
+   
   }
   .header .menu {
     width: 380px;
@@ -287,7 +289,12 @@ footer p {
   .header .menu ul li .inicial {
     margin: 0px;
   }
+  .produtos .content{
+    justify-content: center;
+
+  }
 }
+
 
 @media screen and (min-width: 319px) and (max-width: 640px) {
   .header {
@@ -324,6 +331,9 @@ footer p {
     width: 100%;
     padding: 0;
   }
+  .loja p{
+    padding: 16px;
+  }
   .produtos .content{
     padding: 16px 22px;
   }
@@ -333,5 +343,10 @@ footer p {
     color: #000;
     font-size: 1.2rem;
     text-transform: uppercase;
+  }
+   .produtos .content{
+ 
+  justify-content: center;
+
   }
 }
