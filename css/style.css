@@ -206,6 +206,7 @@ footer p {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .endereco {
   width: 210px;
@@ -324,7 +325,7 @@ footer p {
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
-    padding: 16px;
+    padding: 16px ;
     display: block;
   }
   .loja .image {
